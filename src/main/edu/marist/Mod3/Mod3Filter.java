@@ -25,19 +25,20 @@ public class Mod3Filter {
       }
       // help menu
       else if (s.toLowerCase().contains("help")) {
-          System.out.println("\nMod3\nA Java application to demonstrate the Mod3 class" + 
-            "by using it to filter the standard input stream.  Those" +
-            "lines that are accepted by Mod3 are echoed to the" +
+          System.out.println("\nMod3\nA Java application to demonstrate the Mod3 class " + 
+            "by using it to filter the standard input stream.  Those " +
+            "lines that are accepted by Mod3 are echoed to the " +
             "standard output.\n\n" +
-            "Mod3: A deterministic finite-state automaton that" +
-            "recognizes strings that are binary" +
-            "representations of integers that are divisible" +
-            "by 3.  Leading zeros are permitted, and the" +
-            "empty string is taken as a representation for 0" +
+            "Mod3: A deterministic finite-state automaton that " +
+            "recognizes strings that are binary " +
+            "representations of integers that are divisible " +
+            "by 3.  Leading zeros are permitted, and the " +
+            "empty string is taken as a representation for 0 " +
             "(along with \"0\", \"00\", and so on).\n"
             );
       }
-        
+      // otherise, evaluate input string
+      else {
         m.reset();
         m.process(s);
         if (m.accepted()) {
@@ -46,6 +47,8 @@ public class Mod3Filter {
         else {
               System.out.println("Rejected: " + s);
         }
+      }
+      
         System.out.println("Enter string to evaulate: ");
         s = in.readLine();
     }

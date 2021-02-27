@@ -1,15 +1,9 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# CMPT440
 
+Repository for code snippets and examples for Marist CMPT440 Formal Languages and Computability.
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-
+## Content
+- **Mod3** - Java implemenation example of a DFA that accepts binary strings divisble by 3.
+- **NFA** - Java implementation examples of a few NFAs.
+- **RegEx** - Java implemenation example of a regex parser.
+- **Scripts** - Grep and lex example shell scripts.
