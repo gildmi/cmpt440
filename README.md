@@ -7,3 +7,5 @@ Repository for code snippets and examples for Marist CMPT440 Formal Languages an
 - **NFA** - Java implementation examples of a few NFAs.
 - **RegEx** - Java implemenation example of a regex parser.
 - **Scripts** - Grep and lex example shell scripts.
+
+Code examples based on code examples from *Formal Language: A practical introduction* written by Adams Brooks Webber, published by Franklin, Beedle & Associates Inc. in 2011.
